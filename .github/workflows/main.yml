@@ -30,9 +30,7 @@ jobs:
           
       - name: checkout repo
         uses: actions/checkout@v2
-        
-      - name: test
-        run: npm run test
+      
 
      
         
