@@ -23,10 +23,20 @@ jobs:
       - name: Install ESLint
         run: npm install eslint --save-dev
         
-      - name: create & configure file
+      - name: create config file
         run: |
          npm init --yes
-         $ npx eslint --init
+       
+  a11y-plugin:  
+      
+    runs-on: ubuntu-latest
+    needs: ESLint
+    steps:
+      
+      - name: install a11y plugin
+        run: npm install eslint-plugin-jsx-a11y --save-dev
+          
+
      
         
       
