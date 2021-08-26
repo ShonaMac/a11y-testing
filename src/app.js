@@ -1,1 +1,1 @@
-<img src={logo} className="App-logo" />
+<img src={logo} className="Applogo" />
