@@ -27,11 +27,9 @@ jobs:
        
       - name: install a11y plugin
         run: npm install eslint-plugin-jsx-a11y --save-dev
-        
-      - name: get PR Branch
-        run: echo "PR_NUMBER=${{ github.event.number }}" >>  ${GITHUB_ENV}
-        
           
+      - name: checkout repo
+        uses: actions/checkout@v2
 
      
         
