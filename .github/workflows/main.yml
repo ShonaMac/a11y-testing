@@ -21,7 +21,7 @@ jobs:
     steps:
     
       - name: Install ESLint
-        run: npm instal eslint --save-dev
+        run: npm install eslint --save-dev
         
       - name: crete config file
         run: npm init
