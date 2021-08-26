@@ -31,7 +31,7 @@ jobs:
         run: npm install eslint-plugin-jsx-a11y --save-dev
         
       - name: get PR Branch
-        run: echo "PR_NUMBER=${{ github.ref }}" >>  ${GITHUB_ENV}
+        run: echo "PR_NUMBER=${{ github.event.number }}" >>  ${GITHUB_ENV}
         
           
 
