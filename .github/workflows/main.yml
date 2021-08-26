@@ -23,11 +23,11 @@ jobs:
       - name: Install ESLint
         run: npm install eslint --save-dev
         
-      - name: crete config file
-        run: npm init --yes
-      
-      - name: file config
-        run: $ npx eslint --init
+      - name: create & configure file
+        run: |
+         npm init --yes
+         $ npx eslint --init
+     
         
       
       
