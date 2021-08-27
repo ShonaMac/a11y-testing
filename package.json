@@ -7,9 +7,7 @@
     "test": "mocha \"./**_test.js\"",
     "coverage": "nyc --reporter=text npm run test"
   },
-  "nyc": {
-    "include": "src"
-  },
+ 
   "author": "Balinder Singh",
   "license": "ISC",
   "devDependencies": {
