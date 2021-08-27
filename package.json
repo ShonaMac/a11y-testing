@@ -4,7 +4,7 @@
   "description": "testing code coverage",
   "main": "MyModule.js",
   "scripts": {
-    "test": "mocha \"./**_test.js\"",
+    "test": "mocha \"**/*_test.js\"",
     "coverage": "nyc --reporter=text npm run test"
   },
   "nyc": {
