@@ -3,7 +3,7 @@
   "description": "",
   "version": "1.0.0",
   "scripts": {
-    ""test": "mocha \"./**_test.js\"",
+    "test": "mocha \"./**_test.js\"",
     "test:coverage": "npm run cover:unit && npm run cover:report",
     "test:coveragehtml": "npm run cover:unit && npm run cover:reporthtml",
     "cover:unit": "nyc --silent npm run test",
