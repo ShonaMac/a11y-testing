@@ -1,7 +1,8 @@
 {
-  "name": "my_package",
-  "description": "",
+  "name": "mymodule",
   "version": "1.0.0",
+  "description": "testing code coverage",
+  "main": "MyModule.js",
   "scripts": {
     "test": "mocha \"./**_test.js\"",
     "test:coverage": "npm run cover:unit && npm run cover:report",
@@ -13,16 +14,10 @@
   "nyc": {
     "exclude": ["**/*_test.js"]
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ShonaMac/a11y-testing",
-    
-  },
-  "keywords": [],
-  "author": "",
+  "author": "Balinder Singh",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/monatheoctocat/my_package/issues"
-  },
-  "homepage": "https://github.com/monatheoctocat/my_package"
+  "devDependencies": {
+    "mocha": "^6.2.2",
+    "nyc": "^15.0.0"
+  }
 }
