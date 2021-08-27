@@ -24,12 +24,6 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: install mocha
-        run: npm install --save-dev mocha
-        
-      - name: install nyc
-        run: npm install --save-dev nyc
-        
       - name: run coverage check
         run: npm test:coverage
       
