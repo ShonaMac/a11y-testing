@@ -5,10 +5,10 @@
   "main": "MyModule.js",
   "scripts": {
     "test": "mocha \"./**_test.js\"",
-    "coverage:" "nyc --reporter=text npm run test"
+    "coverage": "nyc --reporter=text npm run test"
   },
   "nyc": {
-    "exclude": ["**/*_test.js"]
+    "include": "src"
   },
   "author": "Balinder Singh",
   "license": "ISC",
