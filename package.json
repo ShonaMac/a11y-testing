@@ -2,7 +2,7 @@
   "name": "mymodule",
   "version": "1.0.0",
   "description": "testing code coverage",
-  "main": "**/MyModule.js",
+  "main": "src/MyModule.js",
   "scripts": {
     "test": "mocha \"./**_test.js\"",
     "coverage": "nyc --reporter=text npm run test"
