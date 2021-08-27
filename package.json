@@ -16,8 +16,5 @@
   },
   "author": "Balinder Singh",
   "license": "ISC",
-  "devDependencies": {
-    "mocha": "^6.2.2",
-    "nyc": "^15.0.0"
-  }
+  
 }
