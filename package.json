@@ -5,7 +5,7 @@
   "main": "src/MyModule.js",
   "scripts": {
     "test": "mocha \"./**_test.js\"",
-    "coverage": "nyc --reporter=text --check-coverage=true npm run test"
+    "coverage": "nyc --check-coverage=true npm run test"
   },
  
   "author": "Balinder Singh",
