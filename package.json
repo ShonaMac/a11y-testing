@@ -12,11 +12,14 @@
   "license": "ISC",
   "devDependencies": {
     "mocha": "^6.2.2",
-    "nyc": "^15.0.0" {
-      "branches": "&gt;80",
-      "lines": "&gt;80",
-      "functions": "&gt;80",
-      "statements": "&gt;80"
+    "nyc": "^15.0.0" 
   }
+  
+   "nyc": {
+    "branches": "&gt;80",
+    "lines": "&gt;80",
+    "functions": "&gt;80",
+    "statements": "&gt;80"
   }
+  
 }
