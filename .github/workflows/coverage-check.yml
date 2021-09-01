@@ -26,8 +26,6 @@ jobs:
       
       - run: npm install
         
-      - name: PoorlyDefinedBehavioyr/nyc-reporte
-        uses: PoorlyDefinedBehaviour/nyc-reporter@v1
-        with:
-         command: "npm run coverage"
+      - run: npm run coverage
+      
       
