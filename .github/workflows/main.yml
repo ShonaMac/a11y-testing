@@ -21,9 +21,6 @@ jobs:
       - name: Install ESLint
         run: npm install eslint --save-dev
         
-      #- name: create config file
-      #  run: |
-      #   npm init --yes
        
       - name: install a11y plugin
         run: npm install eslint-plugin-jsx-a11y --save-dev
