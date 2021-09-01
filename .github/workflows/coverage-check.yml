@@ -29,6 +29,5 @@ jobs:
       - name: PoorlyDefinedBehavioyr/nyc-reporte
         uses: PoorlyDefinedBehaviour/nyc-reporter@v1
         with:
-         GITHUB_TOKEN: ${{ github.token }}
          command: "npm run coverage"
       
