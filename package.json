@@ -16,9 +16,9 @@
   },
   
   "nyc": {
-    "branches": "&gt;80",
-    "lines": "&gt;90",
-    "functions": "&gt;90",
+    "branches": "&gt;100",
+    "lines": "&gt;100",
+    "functions": "&gt;100",
     "statements": "&gt;80"
   }
   
