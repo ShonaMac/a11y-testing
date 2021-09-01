@@ -15,11 +15,4 @@
     "nyc": "^15.0.0" 
   }
   
-   "nyc": {
-    "branches": "&gt;80",
-    "lines": "&gt;80",
-    "functions": "&gt;80",
-    "statements": "&gt;80"
-  }
-  
 }
