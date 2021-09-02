@@ -12,4 +12,8 @@ _MyModule.Multuply = function (a, b) {
     // your code here
     return parseFloat(a) * parseFloat(b);
 };
+_MyModule.Multuply = function (a, b) {
+    // your code here
+    return parseFloat(a) * parseFloat(b);
+};
 module.exports = _MyModule;
