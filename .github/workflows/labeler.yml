@@ -22,7 +22,7 @@ jobs:
       - uses: actions/checkout@v2
       
       - name: add label
-      - uses: andymckay/labeler@master
+        uses: andymckay/labeler@master
         with:
-          add-labels: "Automerge"
+           add-labels: "Automerge"
 
