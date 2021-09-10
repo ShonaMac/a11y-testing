@@ -23,6 +23,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: automerge
         uses: "pascalgn/automerge-action@v0.14.3"
+        with:
+          MERGE_LABELS: "Automerge"
         env:
           GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
       
