@@ -21,4 +21,10 @@ _MyModule.Division = function (a, b) {
     
 };
 
+_MyModule.modulus = function (a, b) {
+    // your code here
+    return parseFloat(a) % parseFloat(b);
+    
+};
+
 module.exports = _MyModule;
